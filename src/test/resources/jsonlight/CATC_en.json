@@ -1,0 +1,268 @@
+{
+  "version": "1.0",
+  "producer": {
+    "producerId": "CATC",
+    "name": "AMMA-CATCH",
+    "title": "AMMA-CATCH: a hydrological, meteorological and ecological observatory on West Africa",
+    "description": "AMMA-CATCH is a national observation service (SNO) dedicated to long-term monitoring of climatological, hydrological and ecological changes in West Africa. For this purpose, it gathers data from three densely instrumented sites, going back as far as the mid-1980s in the Sahelian part of the observation network. These three sites cover areas ranging between 10000 and 25000 km² and are located at different latitudes so as to sample the characteristic eco-climatic gradients of the region. Simultaneous monitoring of the vegetation cover, the phenology and the various terms of the water balance (rainfall, infiltration, groundwater recharge, surface runoff) at the three sites provides insight into the interactions between the water cycle, vegetation dynamics and climate variability at intraseasonal and interannual scales over this region that is highly vulnerable to the impacts of climate change.",
+    "fundings": [
+      {
+        "type": "Organisation",
+        "acronym": "IRD",
+        "name": "Institut de Recherche pour le Développement"
+      },
+      {
+        "type": "Organisation",
+        "acronym": "CNRS",
+        "name": "Centre National de la Recherche Scientifique"
+      },
+      {
+        "type": "Federative structure",
+        "acronym": "OSUG",
+        "name": "Observatoire des Sciences de l'Univers de Grenoble"
+      },
+      {
+        "type": "Federative structure",
+        "acronym": "OREME",
+        "name": "Observatoire de Recherche Méditerranéen de l'Environnement"
+      },
+      {
+        "type": "Federative structure",
+        "acronym": "OMP",
+        "name": "Observatoire Midi-Pyrénées"
+      },
+      {
+        "type": "Research unit",
+        "acronym": "GET",
+        "name": "Géosciences Environnement Toulouse"
+      },
+      {
+        "type": "Research unit",
+        "acronym": "HSM",
+        "name": "HydroSciences Montpellier"
+      },
+      {
+        "type": "Research unit",
+        "acronym": "IGE",
+        "name": "Institut des Géosciences de l'Environnement"
+      },
+      {
+        "type": "Other",
+        "acronym": "",
+        "name": "LabEx OSUG@2020"
+      }
+    ],
+    "contacts": [
+      {
+        "firstName": "Sylvie",
+        "lastName": "Galle",
+        "email": "sylvie.galle@ird.fr",
+        "role": "Project leader"
+      },
+      {
+        "firstName": "Véronique",
+        "lastName": "Chaffard",
+        "email": "veronique.chaffard@ird.fr",
+        "role": "Data manager"
+      }
+    ],
+    "onlineResource": {
+      "urlDownload": "http://bd.amma-catch.org/main.jsf",
+      "urlInfo": "http://www.amma-catch.org/?lang=en",
+      "doi": "10.17178/AMMA-CATCH.all",
+      "webservices": [
+        {
+          "description": "CSW",
+          "url": "http://bd.amma-catch.org/amma-catchWS2/WS/csw/default?service=CSW&request=GetCapabilities"
+        }
+      ]
+    }
+  },
+  "datasets": [
+    {
+      "datasetId": "CATC_DAT_CE.WChem_Od",
+      "metadata": {
+        "title": "Water chemistry dataset (geochemical composition of water), within the Donga watershed (600 km2), Benin",
+        "description": "Concentration of major ions, trace elements, Si concentration.",
+        "objective": "Identification of the chemical signature of the different compartments (surface runoff, sub-surface, deep water-tables) contributing to river flow. Hydrograph decomposition by mixing models based on chemical signatures of each compartment involved in stream flow production.",
+        "datasetLineage": "Dataset acquired during AMMA-CATCH programm. The dataset is broadcasted unmodified to Theia/OZCAR information system.",
+        "contacts": [
+          {
+            "firstName": "Luc",
+            "lastName": "Séguis",
+            "email": "luc.seguis@ird.fr",
+            "role": "Principal investigator"
+          },
+          {
+            "firstName": "Véronique",
+            "lastName": "Chaffard",
+            "email": "veronique.chaffard@ird.fr",
+            "role": "Data manager"
+          }
+        ],
+        "topicCategories": [
+          "Environment",
+          "Geoscientific Information"
+        ],
+        "inspireTheme": "Environmental monitoring facilities",
+        "keywords": [
+          {
+            "keyword": "Water chemical composition"
+          }
+        ],
+        "onlineResource": {
+          "urlDownload": "http://bd.amma-catch.org/amma-catch2/download.jsf?lang=fr&identifier=27&stations=804,805,808,806,807,809,810,811,812,813,814,815,816,817,818,819,821,820,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844&variables=194,201,206,193,205,187,184,195,197,179,199,211,210,183,207,192,188,196,204,198,185,182,180,190,202,191,189,203,186,208,209,181,200&begin=28-07-2002&end=09-10-2004",
+          "urlInfo": "http://bd.amma-catch.org",
+          "doi": "10.5072/AMMA-CATCH.AE.CE.WChem_Od"
+        },
+        "dataConstraint": {
+          "accessUseConstraint": "\"For any publication using AMMA-CATCH data, depending on the contribution of the data to the scientific results obtained, data users should either propose co-authorship to the data providers (doi work package leaders) or at least acknowledge their contribution. The following sentence should appear in the acknowledgments of the publication: \"\"The AMMA-CATCH regional observing system (http://www.amma-catch.org/) was set up thanks to an incentive funding of the French Ministry of Research that allowed pooling together various pre-existing small scale observing setups. The continuity and long term perenity of the measurements are made possible by an undisrupted IRD funding since 1990 and by a continuous CNRS-INSU funding since 2005.\"",
+          "urlDataPolicy": "http://www.amma-catch.org/IMG/pdf/data_policy_amma-catch_db_en.pdf",
+          "licence": {
+            "title": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        "portalSearchCriteria": {
+          "climates": [
+            "Tropical climate"
+          ],
+          "geologies": [
+            "Metamorphic rocks"
+          ]
+        },
+        "spatialExtent": {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  1.5623,
+                  9.8892
+                ],
+                [
+                  1.5623,
+                  9.6875
+                ],
+                [
+                  1.9479,
+                  9.6875
+                ],
+                [
+                  1.9479,
+                  9.8892
+                ],
+                [
+                  1.5623,
+                  9.8892
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "properties": {},
+          "type": "Feature"
+        }
+      },
+      "observations": [
+        {
+          "observationId": "CATC_OBS_CE.WChem_Od_1",
+          "featureOfInterest": {
+            "samplingFeature": {
+              "geometry": {
+                "coordinates": [
+                  1.8143,
+                  9.8733
+                ],
+                "type": "Point"
+              },
+              "name": "SANKORO (PUITS)",
+              "type": "Feature",
+              "properties": {}
+            }
+          },
+          "observedProperty": {
+            "name": "Silicon",
+            "unit": "g.m-3",
+            "description": "DISSOLVED",
+            "theiaCategories": [
+              "https://w3id.org/ozcar-theia/groundwaterMetallicTraceElements"
+            ]
+          },
+          "result": {
+            "missingValue": "-9999.9",
+            "qualityFlags": [
+              {
+                "code": "13",
+                "description": "checked data"
+              }
+            ],
+            "dataFile": {
+              "name": "CATC_OBS_CE.WChem_Od_1.txt"
+            },
+            "additionalValues": [
+              {
+                "name": "delta",
+                "columnName": "delta"
+              }
+            ]
+          },
+          "timeSerie": true,
+          "temporalExtent": {
+            "dateBeg": "2002-07-28T17:52:00Z",
+            "dateEnd": "2003-02-12T12:51:00Z"
+          },
+          "dataType": "Numeric"
+        },
+        {
+          "observationId": "CATC_OBS_CE.WChem_Od_2",
+          "featureOfInterest": {
+            "samplingFeature": {
+              "geometry": {
+                "coordinates": [
+                  1.7201,
+                  9.7134
+                ],
+                "type": "Point"
+              },
+              "name": "TCHAKPAISSA (PUITS)",
+              "type": "Feature",
+              "properties": {}
+            }
+          },
+          "observedProperty": {
+            "name": "Silicon",
+            "unit": "g.m-3",
+            "description": "DISSOLVED",
+            "theiaCategories": [
+              "https://w3id.org/ozcar-theia/groundwaterMetallicTraceElements"
+            ]
+          },
+          "result": {
+            "missingValue": "-9999.9",
+            "qualityFlags": [
+              {
+                "code": "13",
+                "description": "checked data"
+              }
+            ],
+            "dataFile": {
+              "name": "CATC_OBS_CE.WChem_Od_2.txt"
+            },
+            "additionalValues": [
+              {
+                "name": "delta",
+                "columnName": "delta"
+              }
+            ]
+          },
+          "timeSerie": true,
+          "temporalExtent": {
+            "dateBeg": "2002-07-28T09:45:00Z",
+            "dateEnd": "2002-07-28T09:45:00Z"
+          },
+          "dataType": "Numeric"
+        }
+      ]
+    }
+  ]
+}
